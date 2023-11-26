@@ -207,7 +207,7 @@ app.layout = dbc.Container([
                 html.Label('비밀번호를 입력하세요')
             ]),
             dbc.Row([
-                dcc.Input(value='*********', type='text',
+                dcc.Input(value='*********', type='password',
                           id = 'email_password')
             ]),
             html.Br(),
